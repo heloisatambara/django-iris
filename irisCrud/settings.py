@@ -77,10 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django_iris',
         'NAME': 'USER',
-        'USER': '_SYSTEM',
+        'USER': '_system',
         'PASSWORD': 'SYS',
         'HOST': 'localhost',
-        'PORT': 1982,
+        'PORT': 1972,
     }
 }
 
