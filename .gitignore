@@ -1,6 +1,5 @@
-#irisCrud/__pycache__/__init__.cpython-311.pyc
-#irisCrud/__pycache__/settings.cpython-311.pyc
-#irisCrud/__pycache__/urls.cpython-311.pyc
-#irisCrud/__pycache__/wsgi.cpython-311.pyc
-
+# files added by *migrate* and *runserver*
 irisCrud/__pycache__
+
+books/__pycache__
+books/migrations
