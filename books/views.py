@@ -23,3 +23,8 @@ def update(request, id):
     book.author = request.POST.get("author")
     book.save()
     return redirect(home)
+
+def delete(request, id):
+    book = Book.objects.get(id=id)
+    book.delete()
+    return redirect(home)
