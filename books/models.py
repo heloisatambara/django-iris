@@ -6,4 +6,6 @@ class Book(models.Model):
     author = models.CharField(max_length=30)
     year = models.DateField(null=True)
     
+    def __str__(self):
+        return self.title+" "+self.author
     
