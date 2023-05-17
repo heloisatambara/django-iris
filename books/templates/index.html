@@ -8,5 +8,11 @@
 </head>
 <body>
     Hello world
+
+    <ul>
+        {% for book in books %}
+        <li> {{ book.id }} - {{ book.title }} by {{ book.author }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
