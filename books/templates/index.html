@@ -14,5 +14,12 @@
         <li> {{ book.id }} - {{ book.title }} by {{ book.author }}</li>
         {% endfor %}
     </ul>
+
+    <form action="{% url 'save' %}" method="POST">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="title">
+        <input type="text" name="author" placeholder="author">
+        <button type="submit">save</button>
+    </form>
 </body>
 </html>
